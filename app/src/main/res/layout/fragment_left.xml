@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="56dp"
+    android:text="CPAPA"
+    android:textSize="17sp"
+    android:gravity="center"
+    android:background="#000"
+    android:textColor="#ffffff"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="#fff"/>
+    <ListView
+        android:id="@+id/leftListView"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:divider="#fff"
+        android:dividerHeight="1dip"
+        android:background="#242424"
+        android:layout_height="0dp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="#fff"/>
+    <TextView
+        android:id="@+id/leftTextView"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="管理我的收藏"
+        android:textSize="17sp"
+        android:gravity="center"
+        android:background="#000"
+        android:textColor="#ffffff"/>
+
+</LinearLayout>

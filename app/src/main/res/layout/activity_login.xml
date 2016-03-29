@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            style="@style/TextStyle"
+            android:layout_width="wrap_content"
+            android:text="账户:"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/number"
+            android:hint="请输入你的电话号码"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            style="@style/TextStyle"
+            android:layout_width="wrap_content"
+            android:text="密码:"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/password"
+            android:hint="请输入密码"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>   <LinearLayout
+    android:layout_marginTop="20dp"
+    android:gravity="center"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/login"
+            android:padding="10dp"
+            android:background="@color/colorAccent"
+          android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:text="登录"
+            android:layout_height="wrap_content" />
+       <TextView
+           android:id="@+id/register"
+           android:padding="10dp"
+           android:layout_marginLeft="50dp"
+           android:background="@color/colorAccent"
+           android:textSize="20sp"
+           android:text="注册"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/forgetPassword"
+        android:paddingBottom="10dp"
+        android:paddingTop="15dp"
+        android:paddingRight="25dp"
+        android:layout_gravity="end"
+        android:layout_width="wrap_content"
+        android:text="？ 忘记密码"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
